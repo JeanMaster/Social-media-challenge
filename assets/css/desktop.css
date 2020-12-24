@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .darkmode-container {
+    border-top: none;
+    align-items: center;
+    padding: 0px;
+    height: 100px;
+}
+
+header .darkmode-container p {
+    margin-right: 10px;
+}
+
+
+
+main .main-socialnet {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.socialnet-cards {
+    padding: 0;
+    width: 24%;
+    margin-right: 10px;
+}
+
+
+.detailes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
