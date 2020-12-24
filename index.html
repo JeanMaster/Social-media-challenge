@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/desktop.css" media="screen and (min-width: 1024px)" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
     <!-- displays site properly based on user's device -->
     <link
       rel="icon"
@@ -14,10 +19,112 @@
     <title>Social Media Dashboard</title>
   </head>
   <body>
-    Social Media Dashboard Total Followers: 23,004 Dark Mode @nathanf 1987
-    Followers 12 Today @nathanf 1044 Followers 99 Today @realnathanf 11k
-    Followers 1099 Today Nathan F. 8239 Subscribers 144 Today Overview - Today
-    Page Views 87 3% Likes 52 2% Likes 5462 2257% Profile Views 52k 1375%
-    Retweets 117 303% Likes 507 553% Likes 107 19% Total Views 1407 12%
+      <header class="header"> 
+        <div class="header-tittle">
+            <h1>Social Media Dashboard</h1>
+            <p class="header-total">Total Followers: 23,004</p>
+        </div>
+        <div class="darkmode-container">
+          <p class="darkmode-tittle"> Dark mode </p> 
+          <input type="checkbox" class="checkbox" id="checkbox" >
+          <label for="checkbox" class="header-darkmode"></label>
+        </div> 
+      </header>
+      <main class="main">
+          <section class="main-socialnet">
+              <article class="socialnet-cards face">
+                    <p class="card-tittle"><img src="./images/icon-facebook.svg" alt="Facebook Icon">  @jeanMasterMagic</p>
+                    <h2 class="socialnet-cards-total">1482</h2>
+                    <p class="socialnet-cards-followers">FOLLOWERS</p>
+                    <p class="socialnet-today"><img src="./images/icon-up.svg" alt="Arrow up">12 today</p>
+              </article>
+              <article class="socialnet-cards twitter">
+                    <p class="card-tittle"><img src="./images/icon-twitter.svg" alt="twitter icon">  @jeanMasterMagic</p>
+                    <h2 class="socialnet-cards-total">1044</h2>
+                    <p class="socialnet-cards-followers">FOLLOWERS</p>
+                    <p class="socialnet-today"><img src="./images/icon-up.svg" alt="Arrow up">12 today</p>
+              </article>
+              <article class="socialnet-cards instagram">
+                    <p class="card-tittle"><img src="./images/icon-instagram.svg" alt="Instagram Icon">  @jeanMasterMagic</p>
+                    <h2 class="socialnet-cards-total">6K</h2>
+                    <p class="socialnet-cards-followers">FOLLOWERS</p>
+                    <p class="socialnet-today"><img src="./images/icon-up.svg" alt="Arrow Up">12 today</p>
+              </article>
+              <article class="socialnet-cards youtube">
+                    <p class="card-tittle"><img src="./images/icon-youtube.svg" alt="Youtube Icon">  @jeanMasterMagic</p>
+                    <h2 class="socialnet-cards-total">12K</h2>
+                    <p class="socialnet-cards-followers">FOLLOWERS</p>
+                    <p class="socialnet-today"><img src="./images/icon-up.svg" alt="Arrow up">12 today</p>
+                </article>
+          </section>
+          <section class="main-details">
+            <h2>Overview - Today<h2>
+            <div class="detailes-container">
+                <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Page Views</p>
+                        <img class="details-cards--logo" src="./images/icon-facebook.svg" alt="Facebook icon">
+                        <p class="details-cards--count">87</p>
+                        <p class="percentage"><img src="./images/icon-up.svg" alt="">3%</p>
+                    </div>
+                  </article>
+                  <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Likes</p>
+                        <img class="details-cards--logo" src="./images/icon-facebook.svg" alt="Facebook icon">
+                        <p class="details-cards--count">52</p>
+                        <p class="percentage"><img src="./images/icon-down.svg" alt="">2%</p>
+                    </div>
+                  </article>
+                  <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Likes</p>
+                        <img class="details-cards--logo" src="./images/icon-instagram.svg" alt="Instagram icon">
+                        <p class="details-cards--count">5462</p>
+                        <p class="percentage"><img src="./images/icon-up.svg" alt="Arrow up">5462%</p>
+                    </div>
+                  </article>
+                  <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Profile Views</p>
+                        <img class="details-cards--logo" src="./images/icon-instagram.svg" alt="Instagram icon">
+                        <p class="details-cards--count">52K</p>
+                        <p class="percentage"><img src="./images/icon-up.svg" alt="">1375%</p>
+                    </div>
+                  </article> <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Retweets</p>
+                        <img class="details-cards--logo" src="./images/icon-twitter.svg" alt="twitter icon">
+                        <p class="details-cards--count">117</p>
+                        <p class="percentage"><img src="./images/icon-up.svg" alt="">303%</p>
+                    </div>
+                  </article> <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Likes</p>
+                        <img class="details-cards--logo" src="./images/icon-twitter.svg" alt="twitter icon">
+                        <p class="details-cards--count">507</p>
+                        <p class="percentage"><img src="./images/icon-up.svg" alt="">553%</p>
+                    </div>
+                  </article> <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Likes</p>
+                        <img class="details-cards--logo" src="./images/icon-youtube.svg" alt="youtube icon">
+                        <p class="details-cards--count">87</p>
+                        <p class="percentage"><img src="./images/icon-down.svg" alt="">19%</p>
+                    </div>
+                  </article> <article class="details-cards">
+                    <div class="details-cards-container">
+                        <p class="details-cards--tittle" >Page Views</p>
+                        <img class="details-cards--logo" src="./images/icon-youtube.svg" alt="youtube icon">
+                        <p class="details-cards--count">87</p>
+                        <p class="percentage"><img src="./images/icon-down.svg" alt="">12%</p>
+                    </div>
+            </div>   
+            </article>
+         </section>
+      </main>
+      <footer>
+      </footer>
+      <script src="./assets/index.js"></script>
   </body>
 </html>
